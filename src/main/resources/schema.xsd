@@ -28,6 +28,8 @@
         <xsd:annotation>
             <xsd:appinfo>
                 <annox:annotate>@javax.persistence.Entity</annox:annotate>
+                <annox:annotate>@lombok.AllArgsConstructor</annox:annotate>
+                <annox:annotate>@lombok.NoArgsConstructor</annox:annotate>
                 <annox:annotate>@javax.persistence.Table(name="usr")</annox:annotate>
             </xsd:appinfo>
         </xsd:annotation>

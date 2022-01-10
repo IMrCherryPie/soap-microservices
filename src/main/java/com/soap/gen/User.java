@@ -8,6 +8,9 @@
 
 package com.soap.gen;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -44,6 +47,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "user")
 @Entity
 @Table(name = "usr")
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
     @XmlAttribute(name = "id")
